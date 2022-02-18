@@ -1,4 +1,3 @@
-//36 minutos
 
 const readline = require('readline');
 
@@ -25,7 +24,7 @@ const nextQuestion = function() {
     if (0 === questions.length) { //If there are no questions left in the array questions...
       rl.close(); //it closes the program. When we use the close method it emits the close event
     } else {
-      nextQuestion(); //Otherwise, it calls this function again (lines 35 and following) and therefore it console.logs the message
+      nextQuestion(); //Otherwise, it calls this function again (lines 34 and following) and therefore it console.logs the message
     }
   });
 };
