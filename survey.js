@@ -1,3 +1,5 @@
+//Pair programmed with Liam for about 70 minutes.
+
 
 const readline = require('readline');
 
